@@ -18,7 +18,11 @@ const Navbar = () => {
   }
   return (
     <div className="navbar">
-      <img className="logo" src={assets.logo} alt="" />
+      <h1 className="logo" style={{ fontWeight: '700', fontSize: '24px' }}>
+  Food Care Admin Panel
+</h1>
+      
+      {/*<img className="logo" src={assets.logo} alt="" /> */}
       {token && admin ? (
         <p className="login-conditon" onClick={logout}>Logout</p>
       ) : (

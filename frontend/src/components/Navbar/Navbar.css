@@ -5,7 +5,12 @@
     align-items: center;
 }
 .navbar .logo{
-    width: 150px;
+    width: 500px;
+    color: rgb(234, 91, 19);
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
 }
 
 .navbar-menu{
